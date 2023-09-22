@@ -1,3 +1,4 @@
+/*For Responsive hamburger menu ONLY*/
 .menu-wrap {
 	position: fixed;
 	top: 0;
@@ -30,7 +31,7 @@
 	justify-content: center;
 }
 
-/* Hambuerger Line*/
+/* Hamburger Line*/
 .menu-wrap .hamburger > div {
 	position: relative;
 	flex: none;
@@ -42,7 +43,7 @@
 	transition: all 0.4s ease;
 }
 
-/*Hamburguer Lines - Top & Bottom */
+/*Hamburger Lines - Top & Bottom */
 .menu-wrap .hamburger > div::before,
 .menu-wrap .hamburger > div::after {
 	content: "";
