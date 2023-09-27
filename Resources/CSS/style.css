@@ -1,7 +1,7 @@
 @import "navbar.css";
 
 :root {
-	--primary-color: rgba(13, 110, 139, 0.75);
+	--primary-color: rgba(15, 178, 228, 0.815);
 	--secondary-color: rgba(229, 148, 0, 0.9);
 	--overlay-color: rgba(24, 39, 51, 0.85);
 	--menu-speed: 0.75s;
@@ -64,8 +64,9 @@ body {
 	color: #fff;
 	padding: 0.75rem 1.5rem;
 	margin-top: 1rem;
-	transition: all 1s ease-in;
 	text-decoration: none;
+	cursor: pointer;
+	/*transition: all 1s ease-in;*/
 }
 
 .btn:hover {
