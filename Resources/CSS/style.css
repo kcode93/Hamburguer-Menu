@@ -1,7 +1,7 @@
-@import "navbar.css";
+@import url("../CSS/navbar.css");
 
 :root {
-	--primary-color: rgba(15, 178, 228, 0.815);
+	--primary-color: rgba(20, 2, 184, 0.49);
 	--secondary-color: rgba(229, 148, 0, 0.9);
 	--overlay-color: rgba(24, 39, 51, 0.85);
 	--menu-speed: 0.75s;
@@ -28,7 +28,7 @@ body {
 
 #showcase:before {
 	content: "";
-	background-image: url("../IMG/computer.jpg");
+	background-image: url(../IMG/computer.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
