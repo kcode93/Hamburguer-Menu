@@ -6,6 +6,7 @@
 	z-index: 1;
 }
 
+/*Checkbox*/
 .menu-wrap .toggler {
 	position: absolute;
 	top: 0;
@@ -17,6 +18,7 @@
 	opacity: 0;
 }
 
+/*Hamburger container or square-border*/
 .menu-wrap .hamburger {
 	position: absolute;
 	top: 0;
@@ -31,7 +33,7 @@
 	justify-content: center;
 }
 
-/* Hamburger Line*/
+/* Hamburger Line (middle)*/
 .menu-wrap .hamburger > div {
 	position: relative;
 	flex: none;
